@@ -35,14 +35,14 @@ learning–based strategy evaluation.
 
 ## Repository Structure
 
-
-
+```
 oil-price-volatility-energy-stocks/
-├── notebooks/ # End-to-end analysis notebooks
-├── sql/ # SQL scripts and outputs
-├── reports/ # Detailed project reports (PDF)
-├── requirements.txt # Project dependencies
+├── notebooks/        # End-to-end analysis notebooks
+├── sql/              # SQL scripts and outputs
+├── reports/          # Detailed project reports (PDF)
+├── requirements.txt  # Project dependencies
 └── README.md
+```
 
 ---
 

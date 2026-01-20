@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+yfinance
+sqlalchemy
+pymysql
+scikit-learn
+xgboost
+tensorflow
+nltk
+textblob
+vaderSentiment

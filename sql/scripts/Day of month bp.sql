@@ -1,0 +1,8 @@
+SELECT
+  DAYOFMONTH(Date) AS dom,
+  AVG(Close) AS avg_close
+FROM bp_data
+WHERE Date IS NOT NULL
+  AND Close IS NOT NULL
+GROUP BY DAYOFMONTH(Date)
+ORDER BY dom;

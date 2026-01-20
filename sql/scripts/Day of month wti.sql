@@ -1,0 +1,8 @@
+SELECT
+  DAYOFMONTH(Date) AS dom,
+  AVG(WTI_Close) AS avg_close
+FROM brent_wti_data
+WHERE Date IS NOT NULL
+  AND WTI_Close IS NOT NULL
+GROUP BY DAYOFMONTH(Date)
+ORDER BY dom;
